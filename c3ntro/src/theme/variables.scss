@@ -1,2 +1,90 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+/**Fonts**/
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/fonts/Montserrat-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("../assets/fonts/Montserrat-Regular.woff") format("woff"),
+      url("../assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Montserrat-Medium";
+    src: url("../assets/fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"),
+      url("../assets/fonts/Montserrat-Medium.woff") format("woff"),
+      url("../assets/fonts/Montserrat-Medium.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("../assets/fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"),
+      url("../assets/fonts/Montserrat-SemiBold.woff") format("woff"),
+      url("../assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  }
+
+  /*colors*/
+
+  :root {
+    --ion-color-primary: #527ED3;
+	--ion-color-primary-rgb: 82,126,211;
+	--ion-color-primary-contrast: #ffffff;
+	--ion-color-primary-contrast-rgb: 0,0,0;
+	--ion-color-primary-shade: #486fba;
+	--ion-color-primary-tint: #638bd7;
+  }
+
+  /*General Style*/
+h1 {
+    font-family: "Montserrat-SemiBold";
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1em;
+}
+
+h3 {
+    font-family: "Montserrat-Medium";
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+p {
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 1em;
+}
+
+.title-green {
+    color: #CCDEC0;
+}
+
+.color--green {
+    color: #CCDEC0;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+/*Buttons*/
+ion-button {
+    --padding-top: 15px;
+    --padding-bottom: 15px;
+    font-family: 'Montserrat-Medium';
+    --box-shadow: none;
+}
+
+/*Ion Grid*/
+ion-grid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*Inputs*/
+ion-item {
+    --inner-padding-start: 0;
+    --inner-padding-end: 5px;
+    --border-radius: 25px;
+}
